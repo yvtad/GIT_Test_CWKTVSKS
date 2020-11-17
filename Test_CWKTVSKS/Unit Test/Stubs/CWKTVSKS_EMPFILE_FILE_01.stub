@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTVSKS_EMPFILE_FILE_01.stub" keyLength="5" keyPosition="0" stubtype="VSAM KSDS (Organization: Index)" target="EMPFILE" token="40000">
   <stub:description>Created: May 7, 2019 3:44:18 PM</stub:description>
   <stub:stubdata id="0" name="EMPFILE">

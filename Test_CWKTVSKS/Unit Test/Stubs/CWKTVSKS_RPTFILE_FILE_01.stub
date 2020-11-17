@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 <stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="MOD" encoding="1047" id="Unit%20Test/Stubs/CWKTVSKS_RPTFILE_FILE_01.stub" stubtype="QSAM" target="RPTFILE" token="30000">
   <stub:description>Created: May 7, 2019 3:44:17 PM</stub:description>
   <stub:stubdata id="0" name="RPTFILE">
@@ -50,19 +50,19 @@
     </stub:output>
     <stub:checkconditions>
       <checkconditions:simpleCheckcondition refData="#output3.arg0.EMPLOYEE_HDR1.EMP_RUN_MM">
-        <checkconditions:expectation assert="noassert" type="number"/>
+        <checkconditions:expectation assert="noassert" type="number"></checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output3.arg0.EMPLOYEE_HDR1.FILLER2">
-        <checkconditions:expectation assert="noassert"/>
+        <checkconditions:expectation assert="noassert"></checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output3.arg0.EMPLOYEE_HDR1.EMP_RUN_DD">
-        <checkconditions:expectation assert="noassert" type="number"/>
+        <checkconditions:expectation assert="noassert" type="number"></checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output3.arg0.EMPLOYEE_HDR1.FILLER3">
-        <checkconditions:expectation assert="noassert"/>
+        <checkconditions:expectation assert="noassert"></checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output3.arg0.EMPLOYEE_HDR1.EMP_RUN_YY">
-        <checkconditions:expectation assert="noassert" type="number"/>
+        <checkconditions:expectation assert="noassert" type="number"></checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
     <stub:inputDataCheckconditions/>
