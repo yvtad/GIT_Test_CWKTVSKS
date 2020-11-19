@@ -1,16 +1,17 @@
-08:25:46.055 INFO      TOPAZ            ***************************************
-08:25:46.056 INFO      TOPAZ            ** Execution from Topaz with options **
-08:25:46.056 INFO      TOPAZ            ***************************************
-08:25:46.056 INFO      TOPAZ            Using repository: false
-08:25:46.056 INFO      TOPAZ            ***************************************
-08:25:46.068 INFO      Engine           Test Scenario execution started
-08:25:46.068 INFO      Engine           Using context settings:
+08:49:37.539 INFO      TOPAZ            ***************************************
+08:49:37.540 INFO      TOPAZ            ** Execution from Topaz with options **
+08:49:37.540 INFO      TOPAZ            ***************************************
+08:49:37.540 INFO      TOPAZ            Using repository: true
+08:49:37.540 INFO      TOPAZ            Repository URL: http://cwcc.compuware.com:2020/totaltestapi/
+08:49:37.540 INFO      TOPAZ            ***************************************
+08:49:37.540 INFO      Engine           Test Scenario execution started
+08:49:37.540 INFO      Engine           Using context settings:
   Engine Version                : 20.4
-  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
+  Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : 192.168.96.130
+  Server address                : cwcc.nasa.cpwr.corp
   Server port                   : 16196
   Job execution timeout seconds : 300
   Job info interval seconds     : 3
@@ -19,22 +20,25 @@
   Codepage                      : IBM-1047
   Host user Id                  : HBOYXN0
   Use Repository Server         : false
-08:25:46.069 INFO      Engine           Setting variables from context and context data extensions
-08:25:46.069 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
-08:25:46.072 INFO      Engine             id: environmentType    value: BATCH
-08:25:46.072 INFO      Engine             id: userId             value: HBOYXN0
-08:25:46.073 INFO      Engine             id: accountingInfo     value: 
-08:25:46.074 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.YXN1.QA1.LOAD, StringDataItem{value=SALESSUP.YXN1.QA1.LOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}, DataItem{name=Entry, getValue()=SALESSUP.YXN1.DEV1.LOAD, StringDataItem{value=SALESSUP.YXN1.DEV1.LOAD}}}
-08:25:46.076 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
-08:25:46.273 INFO      Unittest         Using local JCL skeleton to submit JCL
-08:25:50.352 INFO      CWCC - Demo System Sending Job execution request to Host 
-08:25:55.534 INFO      CWCC - Demo System Job execution completed with status:
-  Job status     : COMPLETED
-  Job status msg : Job HBOYXN0T(J0952729) ended with return code: 0000
+08:49:37.540 INFO      Engine           Setting variables from context and context data extensions
+08:49:37.541 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+08:49:37.541 INFO      Engine             id: environmentType    value: BATCH
+08:49:37.541 INFO      Engine             id: userId             value: HBOYXN0
+08:49:37.541 INFO      Engine             id: accountingInfo     value: 
+08:49:37.541 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.YXN1.QA1.LOAD, StringDataItem{value=SALESSUP.YXN1.QA1.LOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}, DataItem{name=Entry, getValue()=SALESSUP.YXN1.DEV1.LOAD, StringDataItem{value=SALESSUP.YXN1.DEV1.LOAD}}}
+08:49:37.541 INFO      Engine             id: unittest.staticjcl  value: ../JCL/JobCard.jcl
+08:49:37.541 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
+08:49:37.541 INFO      Unittest         Static JCL is being used, path is: C:/Users/hboyxn0/git/GIT_Test_CWKTVSKS/Test_CWKTVSKS/Unit Test/JCL/JobCard.jcl
+08:49:37.547 INFO      Unittest         Using local JCL skeleton to submit JCL
+08:49:40.711 INFO      CWCC Batch       Sending Job execution request to Host 
+08:49:40.901 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : JCLERROR
+  Job status msg : Job HBOYXN0T(J0952743) ended with JCL error, check JES output.
   Job name       : HBOYXN0T
-  Job id         : J0952729
-  Return code    : 0000
+  Job id         : J0952743
+  Return code    : JCL ERROR
   Abend code     : 
   Abend reason   : 
-08:25:56.542 INFO      Unittest         Execution completed
-08:25:56.543 INFO      Engine           Test Scenario execution ended
+08:49:41.340 ERROR     Engine           Unable to execute the job definition at the host. Job stopped with JCL error
+08:49:41.340 ERROR     Engine           An error occurred. Now stopping the execution.
+08:49:41.341 INFO      Engine           Test Scenario execution ended
