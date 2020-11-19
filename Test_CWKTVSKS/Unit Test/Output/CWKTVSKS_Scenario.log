@@ -1,11 +1,11 @@
-08:49:37.539 INFO      TOPAZ            ***************************************
-08:49:37.540 INFO      TOPAZ            ** Execution from Topaz with options **
-08:49:37.540 INFO      TOPAZ            ***************************************
-08:49:37.540 INFO      TOPAZ            Using repository: true
-08:49:37.540 INFO      TOPAZ            Repository URL: http://cwcc.compuware.com:2020/totaltestapi/
-08:49:37.540 INFO      TOPAZ            ***************************************
-08:49:37.540 INFO      Engine           Test Scenario execution started
-08:49:37.540 INFO      Engine           Using context settings:
+08:55:32.808 INFO      TOPAZ            ***************************************
+08:55:32.809 INFO      TOPAZ            ** Execution from Topaz with options **
+08:55:32.809 INFO      TOPAZ            ***************************************
+08:55:32.809 INFO      TOPAZ            Using repository: true
+08:55:32.809 INFO      TOPAZ            Repository URL: http://cwcc.compuware.com:2020/totaltestapi/
+08:55:32.809 INFO      TOPAZ            ***************************************
+08:55:32.809 INFO      Engine           Test Scenario execution started
+08:55:32.809 INFO      Engine           Using context settings:
   Engine Version                : 20.4
   Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
@@ -20,25 +20,15 @@
   Codepage                      : IBM-1047
   Host user Id                  : HBOYXN0
   Use Repository Server         : false
-08:49:37.540 INFO      Engine           Setting variables from context and context data extensions
-08:49:37.541 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
-08:49:37.541 INFO      Engine             id: environmentType    value: BATCH
-08:49:37.541 INFO      Engine             id: userId             value: HBOYXN0
-08:49:37.541 INFO      Engine             id: accountingInfo     value: 
-08:49:37.541 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.YXN1.QA1.LOAD, StringDataItem{value=SALESSUP.YXN1.QA1.LOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}, DataItem{name=Entry, getValue()=SALESSUP.YXN1.DEV1.LOAD, StringDataItem{value=SALESSUP.YXN1.DEV1.LOAD}}}
-08:49:37.541 INFO      Engine             id: unittest.staticjcl  value: ../JCL/JobCard.jcl
-08:49:37.541 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
-08:49:37.541 INFO      Unittest         Static JCL is being used, path is: C:/Users/hboyxn0/git/GIT_Test_CWKTVSKS/Test_CWKTVSKS/Unit Test/JCL/JobCard.jcl
-08:49:37.547 INFO      Unittest         Using local JCL skeleton to submit JCL
-08:49:40.711 INFO      CWCC Batch       Sending Job execution request to Host 
-08:49:40.901 INFO      CWCC Batch       Job execution completed with status:
-  Job status     : JCLERROR
-  Job status msg : Job HBOYXN0T(J0952743) ended with JCL error, check JES output.
-  Job name       : HBOYXN0T
-  Job id         : J0952743
-  Return code    : JCL ERROR
-  Abend code     : 
-  Abend reason   : 
-08:49:41.340 ERROR     Engine           Unable to execute the job definition at the host. Job stopped with JCL error
-08:49:41.340 ERROR     Engine           An error occurred. Now stopping the execution.
-08:49:41.341 INFO      Engine           Test Scenario execution ended
+08:55:32.809 INFO      Engine           Setting variables from context and context data extensions
+08:55:32.810 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+08:55:32.810 INFO      Engine             id: environmentType    value: BATCH
+08:55:32.810 INFO      Engine             id: userId             value: HBOYXN0
+08:55:32.810 INFO      Engine             id: accountingInfo     value: 
+08:55:32.810 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.YXN1.QA1.LOAD, StringDataItem{value=SALESSUP.YXN1.QA1.LOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}, DataItem{name=Entry, getValue()=SALESSUP.YXN1.DEV1.LOAD, StringDataItem{value=SALESSUP.YXN1.DEV1.LOAD}}}
+08:55:32.810 INFO      Engine             id: unittest.staticjcl  value: ../JCL/
+08:55:32.810 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
+08:55:32.810 INFO      Unittest         Static JCL is being used, path is: C:/Users/hboyxn0/git/GIT_Test_CWKTVSKS/Test_CWKTVSKS/Unit Test/JCL/
+08:55:32.814 ERROR     Engine           File 'C:\Users\hboyxn0\git\GIT_Test_CWKTVSKS\Test_CWKTVSKS\Unit Test\JCL' exists but is a directory
+08:55:32.815 ERROR     Engine           An error occurred. Now stopping the execution.
+08:55:32.815 INFO      Engine           Test Scenario execution ended
