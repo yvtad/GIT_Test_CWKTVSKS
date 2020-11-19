@@ -1,10 +1,10 @@
-11:15:11.036 INFO      TOPAZ            ***************************************
-11:15:11.036 INFO      TOPAZ            ** Execution from Topaz with options **
-11:15:11.036 INFO      TOPAZ            ***************************************
-11:15:11.037 INFO      TOPAZ            Using repository: false
-11:15:11.037 INFO      TOPAZ            ***************************************
-11:15:11.040 INFO      Engine           Test Scenario execution started
-11:15:11.041 INFO      Engine           Using context settings:
+08:25:46.055 INFO      TOPAZ            ***************************************
+08:25:46.056 INFO      TOPAZ            ** Execution from Topaz with options **
+08:25:46.056 INFO      TOPAZ            ***************************************
+08:25:46.056 INFO      TOPAZ            Using repository: false
+08:25:46.056 INFO      TOPAZ            ***************************************
+08:25:46.068 INFO      Engine           Test Scenario execution started
+08:25:46.068 INFO      Engine           Using context settings:
   Engine Version                : 20.4
   Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
   Environment type              : Batch
@@ -19,22 +19,22 @@
   Codepage                      : IBM-1047
   Host user Id                  : HBOYXN0
   Use Repository Server         : false
-11:15:11.041 INFO      Engine           Setting variables from context and context data extensions
-11:15:11.041 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
-11:15:11.046 INFO      Engine             id: environmentType    value: BATCH
-11:15:11.047 INFO      Engine             id: userId             value: HBOYXN0
-11:15:11.047 INFO      Engine             id: accountingInfo     value: 
-11:15:11.049 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.YXN1.QA1.LOAD, StringDataItem{value=SALESSUP.YXN1.QA1.LOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}}
-11:15:11.052 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
-11:15:11.262 INFO      Unittest         Using local JCL skeleton to submit JCL
-11:15:15.029 INFO      CWCC - Demo System Sending Job execution request to Host 
-11:15:15.939 INFO      CWCC - Demo System Job execution completed with status:
+08:25:46.069 INFO      Engine           Setting variables from context and context data extensions
+08:25:46.069 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+08:25:46.072 INFO      Engine             id: environmentType    value: BATCH
+08:25:46.072 INFO      Engine             id: userId             value: HBOYXN0
+08:25:46.073 INFO      Engine             id: accountingInfo     value: 
+08:25:46.074 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.YXN1.QA1.LOAD, StringDataItem{value=SALESSUP.YXN1.QA1.LOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}, DataItem{name=Entry, getValue()=SALESSUP.YXN1.DEV1.LOAD, StringDataItem{value=SALESSUP.YXN1.DEV1.LOAD}}}
+08:25:46.076 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
+08:25:46.273 INFO      Unittest         Using local JCL skeleton to submit JCL
+08:25:50.352 INFO      CWCC - Demo System Sending Job execution request to Host 
+08:25:55.534 INFO      CWCC - Demo System Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HBOYXN0T(J0951834) ended with return code: 0000
+  Job status msg : Job HBOYXN0T(J0952729) ended with return code: 0000
   Job name       : HBOYXN0T
-  Job id         : J0951834
+  Job id         : J0952729
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-11:15:17.068 INFO      Unittest         Execution completed
-11:15:17.068 INFO      Engine           Test Scenario execution ended
+08:25:56.542 INFO      Unittest         Execution completed
+08:25:56.543 INFO      Engine           Test Scenario execution ended
